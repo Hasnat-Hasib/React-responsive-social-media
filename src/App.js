@@ -7,6 +7,7 @@ import { Box } from "@mui/system";
 function App() {
   return (
     <Box >
+      <Navbar/>
       <Sidebar/>
       <Feed/>
       <Rightbar/>
