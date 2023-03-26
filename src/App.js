@@ -9,8 +9,8 @@ function App() {
     <Box >
       <Navbar/>
       <Sidebar/>
-      <Feed/>
-      <Rightbar/>
+      {/* <Feed/>
+      <Rightbar/> */}
     </Box>
   );
 }
