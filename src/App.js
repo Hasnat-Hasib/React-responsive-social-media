@@ -2,6 +2,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import Rightbar from "./components/Rightbar";
 import Feed from "./components/Feed";
+import Add from "./components/Add";
 import { Box, Stack} from "@mui/system";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Feed/>
         <Rightbar/> 
       </Stack>
+      <Add/>
     </Box>
   );
 }
